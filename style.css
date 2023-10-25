@@ -2,11 +2,12 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* font-family: Poppins; */
+  font-family: Poppins;
+  background-color: #fefefe;
 }
 @font-face {
   font-family: poppins;
-  src: url(./Poppins/Poppins-Regular.ttf);
+  src: url(./Poppins/Poppins-Medium.ttf);
 }
 .container {
   display: flex;
@@ -25,6 +26,10 @@ body {
 
 .text-line2 {
   margin-top: -18px;
+}
+.middeSidebar {
+  border-radius: 20px 0px 0px 20px;
+  /* border: 1px solid black; */
 }
 .travel-info {
   display: flex;
@@ -70,7 +75,7 @@ body {
 }
 
 .prefrences {
-  height: 100%;
+  height: 80%;
   background-color: #293144;
   color: white;
   border-radius: 0 20px 0 0;
@@ -118,6 +123,7 @@ body {
   margin-top: -85px;
 }
 .head-headings h3 {
+  font-size: medium;
   width: 100px;
 }
 .main-content1 {
@@ -142,7 +148,7 @@ body {
 }
 .seprator2 {
   width: 90%;
-  border: 1px solid gray;
+  border-bottom: 1px solid #e3dfdf;
 }
 .qtype {
   width: 90%;
@@ -228,7 +234,7 @@ td {
   color: white;
   display: flex;
   align-items: center;
-  margin-top: -50px;
+  margin-top: -58px;
   margin-left: 40px;
 }
 .originHead img {
@@ -272,4 +278,95 @@ th {
   margin-top: 20px;
   width: 90%;
   border: 1px solid rgb(194, 191, 191);
+}
+.upper {
+  border: 1px solid rgb(237, 233, 233);
+  padding: 10px;
+  box-shadow: 5px 5px #f5f5f5;
+}
+.universal {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.typeValue {
+  width: 35%;
+  margin-left: 100px;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  background-color: #818181;
+}
+.input input {
+  width: 150px;
+  height: 25px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+#ddown {
+  height: 25px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+.typeValue1 {
+  width: 75%;
+  margin-top: 10px;
+  margin-left: 100px;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  background-color: #818181;
+}
+.input2 {
+  margin-bottom: 10px;
+}
+.ddown {
+  height: 25px;
+  width: 120px;
+}
+.input2 input {
+  height: 20px;
+  width: 120px;
+}
+.tax {
+  display: flex;
+}
+.save img {
+  height: 35px;
+  width: 100px;
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+}
+.priceBased {
+  width: 83%;
+  margin-top: 10px;
+  margin-left: 100px;
+  background-color: #818181;
+  color: white;
+  border-radius: 10px;
+}
+.priceContent {
+  display: flex;
+  justify-content: space-around;
+}
+.ppb {
+  text-align: center;
+}
+.divider1 {
+  /* width: 1px; */
+  height: 80px;
+  border-left: 1px solid rgb(167, 165, 165);
+}
+.buttonImages {
+  width: 75%;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.buttonImages a img {
+  height: 80px;
+  /* width: 250px; */
 }
